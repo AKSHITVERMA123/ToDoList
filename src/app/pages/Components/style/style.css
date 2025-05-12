@@ -1,0 +1,143 @@
+.circle {
+  margin-top: 170px;
+  width: 40%;
+  height: 40%;
+  border: 5px solid;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#form {
+  height: 50vh;
+  width: 25vw;
+}
+
+#form .Remove .btnR {
+  height: 8%;
+  margin: 1px;
+}
+
+#delete:hover {
+  border: 2px solid #e62020;
+}
+
+/* .btnAdd{
+border: 2px solid black;
+} */
+
+.one {
+  border-color: red;
+  animation: animation01 5s ease-out infinite;
+}
+
+.two {
+  border-color: blue;
+  animation: animation02 5s ease-in-out infinite;
+}
+
+.three {
+  border-color: green;
+  animation: animation03 5s ease-in infinite;
+}
+
+@keyframes animation01 {
+  0% {
+    rotate: 0deg;
+    width: 10%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    rotate: 360deg;
+    width: 10%;
+  }
+}
+
+@keyframes animation02 {
+  0% {
+    rotate: 0deg;
+    width: 10%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    rotate: 360deg;
+    width: 10%;
+  }
+}
+@keyframes animation03 {
+  0% {
+    rotate: 0deg;
+    width: 10%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    rotate: 360deg;
+    width: 10%;
+  }
+}
+/* 
+#clickBtn {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#clickBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.5s ease;
+}
+
+#clickBtn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0%;
+    width: 2px;
+    background-color: #000;
+    transition: height 0.5s ease 0.5s;
+}
+
+#clickBtn:hover::before {
+    width: 100%;
+}
+
+#clickBtn:hover::after {
+    height: 100%;
+    transition: height 0.5s ease 0.5s, top 0.5s ease 1s;
+    top: auto;
+    bottom: 0;
+} */
+
+@keyframes colorFulBtn {
+  0% {
+    top: 2px;
+  }
+  50% {
+    left: 40px;
+  }
+}
+
+#Logo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  mix-blend-mode: color-burn;
+}
