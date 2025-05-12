@@ -1,15 +1,16 @@
-import React from 'react';
-import About from "./pages/Components/About";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ToDoList from "./pages/Components/ToDoList";
+
 const AppRouter = () => {
 
     return (
         <div>
-            <Router>
+            <BrowserRouter>
                 <Routes>
-                    <Route path="/About" element={<About />}></Route>
+                    <Route path="/" element={<ToDoList />}></Route>
                 </Routes>
-            </Router>
+            </BrowserRouter>
         </div>
     )
 }
